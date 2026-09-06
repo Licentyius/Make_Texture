@@ -122,7 +122,7 @@ class MH2LivePaintCanvas(QLabel):
             
         painter = QPainter(self.canvas_image)
         painter.setRenderHint(QPainter.RenderHint.Antialiasing)
-        pen = QPen(self.brush_color, self.brush_size, Qt.PenStyle.SolidLine, Qt.PenLineCapStyle.RoundCap)
+        pen = QPen(self.brush_color, self.brush_size, Qt.PenStyle.SolidLine,  Qt.PenCapStyle.RoundCap)
         painter.setPen(pen)
         
         if is_click: 
