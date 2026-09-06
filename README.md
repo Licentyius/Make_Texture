@@ -27,7 +27,7 @@ Requirements are included for usage, along with an easy to use install script fo
 
 - 3d Pattern Viewer on own tab.
 - Interactive 3d painter.
-
-# What is simply a place holder atm:
-
 - Realtime texture painter.
+
+
+
